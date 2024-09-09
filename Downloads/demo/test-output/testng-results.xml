@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-10T00:54:06 IST" name="Default suite" finished-at="2024-09-10T00:54:14 IST" duration-ms="7621">
+    <groups>
+    </groups>
+    <test started-at="2024-09-10T00:54:06 IST" name="Default test" finished-at="2024-09-10T00:54:14 IST" duration-ms="7621">
+      <class name="com.flipkart.qa.test.DataTest">
+        <test-method is-config="true" signature="setUpWeb()[pri:0, instance:com.flipkart.qa.test.DataTest@36b0fcd5]" started-at="2024-09-10T00:54:07 IST" name="setUpWeb" finished-at="2024-09-10T00:54:13 IST" duration-ms="5762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpWeb -->
+        <test-method signature="dataTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.flipkart.qa.test.DataTest@36b0fcd5]" started-at="2024-09-10T00:54:13 IST" name="dataTest" data-provider="getFileData" finished-at="2024-09-10T00:54:13 IST" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sathish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[reddy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataTest -->
+        <test-method is-config="true" signature="setUpWeb()[pri:0, instance:com.flipkart.qa.test.DataTest@36b0fcd5]" started-at="2024-09-10T00:54:13 IST" name="setUpWeb" finished-at="2024-09-10T00:54:14 IST" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpWeb -->
+        <test-method signature="dataTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.flipkart.qa.test.DataTest@36b0fcd5]" started-at="2024-09-10T00:54:14 IST" name="dataTest" data-provider="getFileData" finished-at="2024-09-10T00:54:14 IST" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chandu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[reddy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataTest -->
+      </class> <!-- com.flipkart.qa.test.DataTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
