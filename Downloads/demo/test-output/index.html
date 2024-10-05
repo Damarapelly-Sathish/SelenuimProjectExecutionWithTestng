@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Ashok\AppData\Local\Temp\testng-eclipse-543464434\testng-customsuite.xml</span>
+                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse-1152881354\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,12 +103,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.flipkart.qa.test.DataTest" class="method navigator-link" hash-for-method="dataTest(sathish, reddy, QA)">dataTest(sathish, reddy, QA)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.flipkart.qa.test.CrossBrowsing" class="method navigator-link" hash-for-method="launch(chrome)">launch(chrome)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.flipkart.qa.test.DataTest" class="method navigator-link" hash-for-method="dataTest(chandu, reddy, DA)">dataTest(chandu, reddy, DA)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.flipkart.qa.test.CrossBrowsing" class="method navigator-link" hash-for-method="launch(firefox)">launch(firefox)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -126,23 +126,23 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.flipkart.qa.test.DataTest</span>
+              <span class="class-name">com.flipkart.qa.test.CrossBrowsing</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="dataTest(sathish, reddy, QA)">
-                  </a> <!-- dataTest(sathish, reddy, QA) -->
-                  <span class="method-name">dataTest</span>
-                  <span class="parameters">(sathish,reddy,QA)</span>
+                  <a name="launch(chrome)">
+                  </a> <!-- launch(chrome) -->
+                  <span class="method-name">launch</span>
+                  <span class="parameters">(chrome)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="dataTest(chandu, reddy, DA)">
-                  </a> <!-- dataTest(chandu, reddy, DA) -->
-                  <span class="method-name">dataTest</span>
-                  <span class="parameters">(chandu,reddy,DA)</span>
+                  <a name="launch(firefox)">
+                  </a> <!-- launch(firefox) -->
+                  <span class="method-name">launch</span>
+                  <span class="parameters">(firefox)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -150,7 +150,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Ashok\AppData\Local\Temp\testng-eclipse-543464434\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse-1152881354\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -159,7 +159,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.flipkart.qa.test.DataTest&quot;/&gt;
+      &lt;class name=&quot;com.flipkart.qa.test.CrossBrowsing&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -201,18 +201,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'dataTest')
-data.setCell(0, 2, 'com.flipkart.qa.test.DataTest')
-data.setCell(0, 3, 189);
+data.setCell(0, 1, 'launch')
+data.setCell(0, 2, 'com.flipkart.qa.test.CrossBrowsing')
+data.setCell(0, 3, 45019);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'dataTest')
-data.setCell(1, 2, 'com.flipkart.qa.test.DataTest')
-data.setCell(1, 3, 131);
+data.setCell(1, 1, 'launch')
+data.setCell(1, 2, 'com.flipkart.qa.test.CrossBrowsing')
+data.setCell(1, 3, 6019);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 320 ms</span>
+              <span class="suite-total-time">Total running time: 51 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -238,23 +238,31 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.flipkart.qa.test.DataTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.flipkart.qa.test.CrossBrowsing</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUpWeb</span>
+                <span class="method-name">browser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">dataTest(sathish, reddy, QA)</span>
-                <span class="method-start">5764 ms</span>
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">11 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">6035 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUpWeb</span>
-                <span class="method-start">5960 ms</span>
+                <span class="method-name">browser</span>
+                <span class="method-start">6355 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">dataTest(chandu, reddy, DA)</span>
-                <span class="method-start">6588 ms</span>
+                <span class="method-name">launch(firefox)</span>
+                <span class="method-start">6356 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">51379 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
